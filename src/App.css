@@ -1,0 +1,33 @@
+.app_body {
+  padding: 0 16px 16px;
+  box-sizing: border-box;
+}
+
+.app_header {
+  padding: 0 16px;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px #ddd;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.app_menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app_menu > a {
+  padding: 16px;
+  text-decoration: none;
+  transition: all 0.3s;
+  color: #888;
+}
+
+.app_menu > a.active {
+  color: #333;
+}
+
+.app_menu > a:hover {
+  color: #000;
+}
