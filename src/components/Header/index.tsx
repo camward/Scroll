@@ -14,7 +14,7 @@ const Header = () => {
         to="/one"
         className={({ isActive }) => (isActive ? "active" : undefined)}
       >
-        Project One
+        Virtual
       </NavLink>
       <NavLink
         to="/two"
