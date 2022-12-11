@@ -49,7 +49,7 @@ const Table: FC<TableProps> = ({
           {data.slice(start, start + visibleRows + 1).map((row, rowIndex) => (
             <tr style={{ height: rowHeight }} key={start + rowIndex}>
               {row.map((text, colIndex) => (
-                <td key={start + "" + rowIndex + colIndex}>{text}</td>
+                <td key={start + rowIndex + colIndex}>{text}</td>
               ))}
             </tr>
           ))}
